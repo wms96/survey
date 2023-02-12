@@ -23,5 +23,4 @@ class SurveysTest extends TestCase
     {
         $this->assertInstanceOf(Collection::class, $this->model->getSurveys());
     }
-
 }
